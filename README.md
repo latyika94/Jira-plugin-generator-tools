@@ -24,4 +24,5 @@ This little CLI tool helps to modify the generated atlassian jira addon by Atlas
  3. Type parameter what you ask for in CLI (press **Enter** for use default value)
 
 **Define default values**
+
 You can place an `application.properties` file next to `.jar` file where you define the above steps properties (see [application.properties](https://github.com/latyika94/Jira-plugin-generator-tools/blob/master/src/main/resources/org/tools/atlassian/plugin/config/application.properties)) for all possible settings. The tool can running in silentmode if you set `silentmode` property to `true`. In this mode the tool won't ask you to give parameters by command line, it will use the defined values from `application.properties` file.
